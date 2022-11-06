@@ -1,0 +1,126 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #00000000;
+}
+
+.main_header {
+    width: 100%;
+    height: 70vh;
+    background: #0226FD;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color : #ffffff;
+    text-shadow: 0px 0px 10px #000000 ;
+    font-family: Verdana;
+    font-size: 14px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Jawa Barat logo */
+.logo {
+    width: 150px;
+    text-align: center;
+    align-items: center;
+}
+
+.ul_nav_bar {
+    background-color: #3553fda9;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.li_nav_bar {
+    float: left;
+}
+.li_nav_bar a {
+    display: block;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+.li_nav_bar:hover{
+    font-weight: bold ;
+}
+
+.box1 {
+    margin: 1em 0;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.subbox1 {
+    display: grid;
+    height: fit-content;
+}
+
+.subbox1 >article {
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 0px 2px 5px 1px #999;
+}
+
+.sejarah { 
+    background: url(image/gedung_sate.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 50vh;
+}
+
+.geografi { 
+    background: url(image/mountain.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 50vh;
+}
+
+#profile_photo {
+    width: 150px;
+}
+
+.subbox_profile {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.subbox_profile > div {
+    font-size: 12px;
+    line-height: 1.5em;
+}
+
+.subbox2 {
+    display: grid;
+    height: fit-content;
+}
+
+.subbox2 >article {
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 0px 2px 5px 1px #999;
+    text-align: center;
+}
+
+footer {
+    background: #0226FD;
+    color: #ffffff;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
